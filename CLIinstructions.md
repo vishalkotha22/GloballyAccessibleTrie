@@ -5,7 +5,7 @@ Instructions:
   * For Linux 64-bit, a download link is https://nodejs.org/dist/v14.16.1/node-v14.16.1-linux-x64.tar.xz
   * For MacOS 64-bit, a download link is https://nodejs.org/dist/v14.16.1/node-v14.16.1-darwin-x64.tar.gz
 2. Extract the file and record the path of the location where it's extracted (for this example, the path is C:\Apps)
-3. Press the windows key, type cmd, and hit enter
+3. For windows, the command prompt can be accessed by pressing the windows key, typing cmd, and hitting enter. For linux, the command prompt can be accessed using an ssh client, such as PUTTY. For Mac, the command prompt is terminal.
 4. Into command prompt type: "set PATH=C:\Apps\node-v14.16.1-win-x64;%PATH%". Note that the path varies based on where you extracted the NodeJS download and the name of the folder varies depending on what type of NodeJS was downloaded based on your OS. Additionally, in some cases, the command may be "set PATH=C:\Apps\node-v14.16.1-win-x64\node-v14.16.1-win-x64;%PATH%" if the NodeJS was copied for some reason.
 5. Download "trieclient.js" anywhere and record the path. For this example, the path is C:\Apps\test.
 6. Type the following command: "cd C:\Apps\test". Note that the path varies based on where trieclient.js was downloaded.
