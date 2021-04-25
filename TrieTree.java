@@ -87,7 +87,7 @@ public class TrieTree {
 				if(index == -1){
 					children.add(new TrieNode(word.charAt(0), false, this));
 					children.get(children.size()-1).addKeyword(word.substring(1));
-            }else{
+            			}else{
 					children.get(index).addKeyword(word.substring(1));
 				}
 			}
@@ -141,11 +141,12 @@ public class TrieTree {
 				return;
 			}
 			TrieNode tail = traverse(word);
-         if(tail.children.size() > 0){
+        		if(tail.children.size() > 0){
 				tail.setBool(false);
 				return;
 			}
 			TrieNode target = tail;
+			tail = tail.parent;
 			while(tail.parent != null && tail.children.size() < 2 && !tail.isEnd){
 				target = tail;
 				tail = tail.parent;
