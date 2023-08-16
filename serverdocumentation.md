@@ -1,4 +1,4 @@
-# slingshottakehomechallenge
+# Globally Accessible Trie
 The server is hosted using Amazon Web Service EC2. On the EC2 instance, I've installed Tomcat 9 and deployed the TrieWeb application with servlets and configurations. 
 
 The CLI uses HTTPClient with the get parameters in NodeJS. The get parameters are passed to the servlet which, based on the operations, tells TrieManager to initiate the appropriate calls. 
