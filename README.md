@@ -1,5 +1,5 @@
 # slingshottakehomechallenge
-The Github repository storing everything for Vishal Kotha's implementation of a Trie that can be accessed through command prompt. Command Line Interface instructions are located at CLIinstructions.md and Server Documentation is located at serverdocumentation.md. 
+The Github repository storing everything for Vishal Kotha's implementation of a Trie that can be accessed globally through command prompt if the server is running. Command Line Interface instructions are located at CLIinstructions.md and Server Documentation is located at serverdocumentation.md. 
 
 Descriptions of Files under the test package:
 
