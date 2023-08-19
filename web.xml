@@ -23,9 +23,9 @@
   metadata-complete="true">
 
     <description>
-      Krishna AWS Tomcat Servlet and JSP Examples.
+      Vishal AWS Tomcat Servlet and JSP Examples.
     </description>
-    <display-name>Krishna AWS Tomcat </display-name>
+    <display-name>Vishal AWS Tomcat </display-name>
 
     <!-- Define servlets that are included in the example application -->
 	
